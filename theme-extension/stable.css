@@ -3811,8 +3811,9 @@ html /deep/ .component-root {
 
 .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header-contents .tabbed-pane-header-tab {
     height: 26px!important;
-    line-height: 25.5px!important;
-    margin-left: 4px !important;
+    line-height: 23.5px!important;
+    padding: 0 8px !important;
+    display: inline-block !important;
 }
 
 body .inspector-view-tabbed-pane.tabbed-pane::shadow .tabbed-pane-header,
@@ -3836,7 +3837,7 @@ select.tabbed-pane-header-tabs-drop-down-select {
 
 .toolbar .tabbed-pane-header .tabbed-pane-header-tab {
     height: 34px!important;
-    line-height: 25.5px!important;
+    line-height: 23.5px!important;
     padding: 2px 4px!important;
     cursor: pointer!important;
     border-image: none!important
