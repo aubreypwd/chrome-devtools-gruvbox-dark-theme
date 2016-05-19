@@ -17,9 +17,8 @@ There is no Chrome App for this, so do the following:
 5. Browse to the above folder, and you'll see "DevTools Theme: Gruvbox Dark (aubreypwd)" added
 6. Open DevTools and goto Gear/Settings
 7. Enable Experiments > Allow custom UI themes
+8. Enable Dark Mode in General > Theme
 8. Close and re-open Devtools
-
-## Preview
 
 ![devtools]
 
