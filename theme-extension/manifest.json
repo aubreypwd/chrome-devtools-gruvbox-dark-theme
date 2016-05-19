@@ -1,11 +1,11 @@
 {
-    "name": "DevTools Theme: Gruvbox Dark",
+    "name": "DevTools Theme: Gruvbox Dark (aubreypwd)",
     "version": "0.0.2",
-    "description": "Gruvbox Dark theme for Chrome Devtools",
-    "author": "Eduardo Ruiz",
+    "description": "Gruvbox Dark theme for Chrome Devtools with annoying fixes by @aubreypwd",
+    "author": "Aubrey Portwood",
     "short_name": "Gruvbox Dark Devtools",
     "devtools_page": "devtools.html",
-    "homepage_url": "https://github.com/eduarbo/chrome-devtools-gruvbox-dark-theme",
+    "homepage_url": "https://github.com/aubreypwd/chrome-devtools-gruvbox-dark-theme",
     "manifest_version": 2,
     "icons": {
         "16": "images/icon16.png",
