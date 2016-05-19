@@ -1,44 +1,26 @@
-# Notice
-Experiments settings reset in `44.0.2403.89`. Open developer tools settings &#9654; Experiments &#9654; [&#10004;] Allow custom UI themes to enable theme again.
+# Gruvbox Dark Theme for Chrome Devtools (Fixed)
 
-
-# Gruvbox Dark Theme for Chrome Devtools
 Gruvbox Dark is a retro groove color scheme for Chrome DevTools. This is a port
 of the Vim version originally by [Pavel Pertsev](https://github.com/morhetz)
 found [here](https://github.com/morhetz/gruvbox).
 
-By now it's only a dark theme, I'm working in the light version too.
-
-Stable and Canary channels are officially supported.  Beta and Dev channels will work, but I'm not testing on them.
-
-➡ Please follow development for this theme at [chrome devtools themes](https://github.com/eduarbo/chrome-devtools-themes).
+It was broke, so I forked it and fixed it for Chrome at version `50.0.2661.102 (64-bit)`.
 
 ## Installation
 
-* Add [Gruvbox Dark](https://chrome.google.com/webstore/detail/devtools-theme-gruvbox-da/njcgdakjdifgccdgnoiphpnihcfopcmj) from the Chrome Web Store.
-* Open `chrome://flags` &#9654; Enable Developer Tools experiments and click "Relaunch Now" at the bottom.
-* Open developer tools settings &#9654; Experiments &#9654; [&#10004;] Allow custom UI themes.
+There is no Chrome App for this, so do the following:
 
+1. Clone this repo somewhere where it can live, e.g. `~/.chrometools-gruvbox`
+2. Goto Extensions in Chrome
+3. Check "Developer Mode"
+4. Click "Load unpacked extension..."
+5. Browse to the above folder, and you'll see "DevTools Theme: Gruvbox Dark (aubreypwd)" added
+6. Open DevTools and goto Gear/Settings
+7. Enable Experiments > Allow custom UI themes
+8. Close and re-open Devtools
 
 ## Preview
 
 ![devtools]
 
 [devtools]: ./images/devtools.png "Devtools"
-
-## Features
-* Majority of inspector chrome re-styled
-* Customized Scrollbars
-* Animations for
-** finding elements
-** setting elements inactive
-** elements/sources/network panels
-* Subtle pulsating element selection
-* Re-styled Popovers (PSD files included)
-* Child element styling in elements panel
-
-
-## Credits
-
-* A big thanks to [Maurice Cruz](https://github.com/mauricecruz) for creating the [Zero Base Template](https://github.com/mauricecruz/zero-base-themes). I used it as base for this one.
-* Thanks to [Pavel Pertsev](https://github.com/morhetz) creator of the amazing [Gruvbox Colorscheme](https://github.com/morhetz/gruvbox).
